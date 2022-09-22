@@ -1,0 +1,27 @@
+POST  http://localhost:3000/api/users HTTP/1.1
+Content-Type:  application/json
+
+{
+    "name": "User222",
+    "age": 30,
+    "email": "userany@umanizales.edu.co"
+
+}
+
+GET http://localhost:3000/api/users/632cbed2e2f740164a8309d6
+HTTP/1.1
+
+## 
+DELETE http://localhost:3000/api/users/632cbed2e2f740164a8309d6
+ HTTP/1.1
+
+
+ PUT http://localhost:3000/api/users/632cbeece2f740164a8309d9
+HTTP/1.1
+Content-Type: application/json
+{
+    "name": "User223",
+    "age": 50,
+    "email": "useranything@umanizales.edu.co"
+
+}
